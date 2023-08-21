@@ -7,7 +7,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-bot = telebot.TeleBot('6516740187:AAGqYm1zOohaBQCEV8RqBG_Ids0ZvNAYdP0')
+bot = telebot.TeleBot('***')
 df = pd.read_csv('Final_joined.csv')
 
 def haversine(lat1, lon1, lat2, lon2):
